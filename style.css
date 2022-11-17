@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html { font-size: 62.5%;}
+
+body{
+    background-color: purple;
+}
+
+.conteiner-main{
+    margin: 5rem auto;
+    border:solid white;
+    background-color: black;
+    border-radius: 1.5rem;
+    box-shadow: 1rem 1rem 1rem coral;
+    list-style: none;
+    padding: 3rem;
+    width: 50rem;
+    position: relative;
+}
+
+.conteiner-title h3 {
+    margin: -5.5rem;
+    left: 15rem;
+    background-color: black;
+    color: white;
+    position: absolute;
+    border:solid white;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 3rem  rgb(28, 161, 37);
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Sono', sans-serif;
+}
+
+
+.content{
+    margin: 2rem;
+    font-size: 1.6rem;
+    text-align: justify;
+    color: white;
+    line-height: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content-img{
+    position: absolute;
+    top: 5rem;
+    left: 30rem;
+}
+
+.img{
+    width: 19rem ;
+}
+
+.conteiner-button{
+    position: absolute;
+    left: 40rem;
+    bottom: 1rem;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    font-family:'Titillium Web', sans-serif;
+    cursor: pointer;
+    width: 100%;
+    height: 4rem;
+    border: none;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1rem cyan;
+}
+
+.button:hover{
+   background-color: aqua;
+}
