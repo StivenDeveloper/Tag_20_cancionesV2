@@ -61,7 +61,11 @@ body{
     left: 38em;
     bottom: 1rem;
 }
-
+.conteiner-button-an{
+    position: absolute;
+    margin: 2rem;
+    left: 5rem;
+}
 .button  {
     display: inline-flex;
     align-items: center;
